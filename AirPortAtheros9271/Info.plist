@@ -15,14 +15,47 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>IOKitPersonalities</key>
-	<dict/>
+	<dict>
+		<key>AirPortAtheros9271</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOClass</key>
+			<string>AirPort_Atheros9271</string>
+			<key>IOMatchCategory</key>
+			<string>AirPort_Atheros9271</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>37489</integer>
+			<key>idVendor</key>
+			<integer>3315</integer>
+		</dict>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Pastel &amp; Crayons. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
-	<dict/>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>3.4</string>
+		<key>com.apple.iokit.IOUSBHostFamily</key>
+		<string>1.2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>18.6</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>18.6</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>18.6</string>
+		<key>com.apple.kpi.mach</key>
+		<string>18.6</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>18.6</string>
+	</dict>
 </dict>
 </plist>
