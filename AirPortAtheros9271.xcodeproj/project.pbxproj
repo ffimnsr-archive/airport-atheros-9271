@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984D97A022D053EA00E0FFD9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 984D979F22D053E900E0FFD9 /* Makefile */; };
 		9858D72F22CCB93400157893 /* AirPortAtheros9271.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9858D72E22CCB93400157893 /* AirPortAtheros9271.hpp */; };
 		9858D73122CCB93400157893 /* AirPortAtheros9271.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9858D73022CCB93400157893 /* AirPortAtheros9271.cpp */; };
 		9858D73922CDD78C00157893 /* Atheros9271Firmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9858D73822CDD78B00157893 /* Atheros9271Firmware.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		984D979F22D053E900E0FFD9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		9858D72B22CCB93400157893 /* AirPortAtheros9271.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPortAtheros9271.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		9858D72E22CCB93400157893 /* AirPortAtheros9271.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AirPortAtheros9271.hpp; sourceTree = "<group>"; };
 		9858D73022CCB93400157893 /* AirPortAtheros9271.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AirPortAtheros9271.cpp; sourceTree = "<group>"; };
@@ -34,6 +36,7 @@
 		9858D72122CCB93400157893 = {
 			isa = PBXGroup;
 			children = (
+				984D979F22D053E900E0FFD9 /* Makefile */,
 				9858D72D22CCB93400157893 /* AirPortAtheros9271 */,
 				9858D72C22CCB93400157893 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984D97A022D053EA00E0FFD9 /* Makefile in Sources */,
 				9858D73122CCB93400157893 /* AirPortAtheros9271.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
